@@ -45,14 +45,5 @@
     "prisma": "8.0.0-rc.33",
     "tsx": "^4.23.15",
     "typescript": "^6.0.3"
-  },
-  "pnpm": {
-    "overrides": {
-      "@effect/platform-bun": "4.0.5",
-      "@effect/platform-node": "4.0.5",
-      "@effect/platform-node-shared": "4.0.5",
-      "@effect/vitest": "4.0.5",
-      "effect": "4.0.5"
-    }
   }
 }

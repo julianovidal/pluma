@@ -29,6 +29,7 @@
     "@prisma/composer-prisma-cloud": "0.38.0",
     "@prisma/orm-postgres": "8.0.0-rc.23",
     "alchemy": "2.0.0-beta.84",
+    "effect": "4.0.5",
     "next": "16.4.6",
     "react": "19.3.1",
     "react-dom": "19.3.1",
@@ -44,5 +45,14 @@
     "prisma": "8.0.0-rc.33",
     "tsx": "^4.23.15",
     "typescript": "^6.0.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "@effect/platform-bun": "4.0.5",
+      "@effect/platform-node": "4.0.5",
+      "@effect/platform-node-shared": "4.0.5",
+      "@effect/vitest": "4.0.5",
+      "effect": "4.0.5"
+    }
   }
 }
